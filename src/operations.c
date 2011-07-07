@@ -9,10 +9,10 @@
 
 void add(int dest,int reg1,int reg2)
 {	
-	if(reg1<32)
-		printf("Reading R[%d] ... R[%d]=%d\n",reg1,reg1,reg_file[reg1].val);
-	if(reg1<32)
-		printf("Reading R[%d] ... R[%d]=%d\n",reg1,reg1,reg_file[reg1].val);	
+//	if(reg1<32)
+//		printf("Reading R[%d] ... R[%d]=%d\n",reg1,reg1,reg_file[reg1].val);
+//	if(reg1<32)
+//		printf("Reading R[%d] ... R[%d]=%d\n",reg1,reg1,reg_file[reg1].val);	
 	
 	int a=(reg1<32)?reg_file[reg1].val:reg1-32;
 	int b=(reg2<32)?reg_file[reg2].val:reg2-32;
