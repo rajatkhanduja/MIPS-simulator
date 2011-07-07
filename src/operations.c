@@ -57,8 +57,8 @@ void and_(int dest,int reg1,int reg2)
 	
 	reg_file[dest].val=a & b;
 	pc++;
-	printf("\'And\'ing .. %d %d\n",a,b);
-	printf("Result in R[%d] = %d\n",dest,reg_file[dest].val);
+//	printf("\'And\'ing .. %d %d\n",a,b);
+//	printf("Result in R[%d] = %d\n",dest,reg_file[dest].val);
 
 	return;
 }
