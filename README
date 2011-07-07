@@ -1,0 +1,31 @@
+This is a MIPS simulator written in C.
+
+------------------------------------------
+Compilation Instructions :-
+------------------------------------------
+1. cd to the directory.
+2. Use make command to compile the source code. The executable file is created as bin/simulator.
+3. There is a sample program (written in MIPS) in the bin/folder (bin/multiply_num.asm). 
+4. To run the program, use :-
+	$ bin/simulator bin/multiply_num.asm
+
+----------------------------------------------------------------------------------------
+
+------------------------------------------
+General instructions :-
+------------------------------------------
+
+The simulator can run the following subset of the MIPS instruction set in the format described 
+
+	-> add $rd $rs $rt	[immediate value can be given instead of $rs & $rt]
+	-> sub $rd $rs $rt	[immediate value can be given instead of $rs & $rt]
+	-> and $rd $rs $rt	[immediate value can be given instead of $rs & $rt]
+	-> or  $rd $rs $rt	[immediate value can be given instead of $rs & $rt]
+	-> slt $rd $rs $rt	[immediate value can be given instead of $rs & $rt]
+	-> move $rd $rs 	[immediate value can be given instead of $rs & $rt]
+	-> li $rd imm_val
+	-> syscall
+	-> lw $reg var_name
+	-> sw $reg var_name
+	-> beq $rs $rt label
+	-> j label
