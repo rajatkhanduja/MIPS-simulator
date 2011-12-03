@@ -1,5 +1,5 @@
 OBJ=obj
-INLCUDE=include
+INCLUDE=include
 BIN=bin
 SRC=src
 
