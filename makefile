@@ -26,3 +26,4 @@ ${OBJ}/main.o:${SRC}/main.c
 	
 clean:
 	rm -f ${OBJ}/*
+	mkdir obj 2> /dev/null
